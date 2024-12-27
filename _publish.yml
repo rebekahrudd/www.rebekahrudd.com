@@ -1,0 +1,5 @@
+# publishing for Professor Kapfhammer's site
+# - source: project
+#   netlify:
+#     - id: 8ac74974-634a-429d-897e-f46803057190
+#       url: 'https://developerdevelopment.netlify.app'
