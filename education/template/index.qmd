@@ -1,0 +1,31 @@
+---
+author: [John Doe, Jane Doe]
+title: Article Title
+date: '2024-12-26'
+date-format: long
+categories: [post, travel, growth, prayer requests, abroad, domestic]
+description: <em>What I've learned and Classes I've taken</em>
+toc: true
+page-layout: full
+---
+
+## Overview
+
+This is an overview of this post.
+
+## Summary
+
+Code and what I've learned
+
+```python
+# Initial code segment with the hypothesis
+elif c == '"' or c == "'" and tag:
+    assert False  # <=== Just added
+    quote = not quote
+```
+
+## Reflection
+
+## Action Items
+
+## Prayer Requests

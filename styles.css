@@ -11,7 +11,15 @@
 /* #e64b19 -> #5cc714 */
 /* #e65100 -> #54e600 */
 
+/* here's another pretty text color: #23e2af */
+
 /* Basic Components {{{ */
+
+/* this is a good color for the nav bar edit a
+the first ones to this */
+.navbar {
+  background-color: #5cc714
+}
 
 body {
   background-color: #fafafa;

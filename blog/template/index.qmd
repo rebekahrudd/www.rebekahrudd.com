@@ -27,9 +27,3 @@ elif c == '"' or c == "'" and tag:
 ## Action Items
 
 ## Prayer Requests
-
-<!-- Include the license statement for the online book -->
-{{< include /_debuggingbook-reference.qmd >}}
-
-<!-- Include reference back to the listing of blog posts -->
-{{< include /_back-blog.qmd >}}

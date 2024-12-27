@@ -31,6 +31,10 @@ website:
         text: Shop
       - href: travel/index.qmd
         text: Travel
+      - href: education/index.qmd
+        text: education
+      - href: extra_curriculars/index.qmd
+        text: Extra_Curriculars
 
   page-footer:
     left: '<a href="https://github.com/rebekahrudd/www.rebekahrudd.com/graphs/contributors" aria-label="RRTeam Maintainers">{{< fa copyright >}} RR</a>'
