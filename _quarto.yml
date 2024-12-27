@@ -1,0 +1,80 @@
+project:
+  type: website
+  render:
+    - "*.qmd"
+    - "!_resources/"
+  preview:
+    port: 5540
+    browser: false
+    watch-inputs: true
+    navigate: false
+
+website:
+  title: ""
+  page-navigation: true
+  # add the favicon here
+  # favicon: "icons/rr-logo-favicon.svg"
+  open-graph: true
+  # site-url: https://www.rebekahrudd.com/
+  # repo-url: https://github.com/rebekahrudd/www.rebekahrudd.com
+  search:
+    location: navbar
+  reader-mode: false
+  back-to-top-navigation: false
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: blog/index.qmd
+        text: Blog
+      - href: shop/index.qmd
+        text: Shop
+      - href: travel/index.qmd
+        text: Travel
+
+  page-footer:
+    left: '<a href="https://github.com/rebekahrudd/www.rebekahrudd.com/graphs/contributors" aria-label="RRTeam Maintainers">{{< fa copyright >}} RR</a>'
+    center: '<a href="#" aria-label="Go to the top of the page">Top {{< fa circle-up >}}</a>'
+    right:
+      - text: "{{< iconify fa github size=18px >}}"
+        href: https://github.com/rebekahrudd/
+      - text: "{{< iconify fa github-square size=18px >}}"
+        href: https://github.com/rebekahrudd/www.rebekahrudd.com/
+      # add a instagram and facebook too
+      # add a discord link
+      # - text: "{{< iconify bi discord size=19px >}}"
+      #   href: https://discord.gg/aNfn8DNEMx
+      # not sure what the bellow does
+      - text: "{{< iconify bi rss-fill size=18px >}}"
+        href: "blog/index.xml"
+
+format:
+  html:
+    # do not use embed-resources: true because this
+    # causes build times to take a very long time
+    # and builds will normally crash with an out
+    # of memory error from the JavaScript runtime
+    embed-resources: false
+    mainfont: Noto Sans
+    monofont: Noto Sans Mono
+    fontsize: 1.375em
+    theme:
+        - united
+        - united-light.scss
+    css: styles.css
+    toc: true
+    toc-title: "Contents"
+    code-copy: hover
+    code-overflow: wrap
+    code-fold: false
+    code-tools: false
+    highlight-style: gruvbox
+    email-obfuscation: javascript
+    # note: smooth-scroll must false so as to
+    # ensure that the back to top button
+    # in the footer of the page works correctly
+    smooth-scroll: false
+    citations-hover: true
+    footnotes-hover: true
+    citeproc: true
+    appendix-style: default
