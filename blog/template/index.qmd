@@ -12,6 +12,7 @@ page-layout: full
 ## Overview
 
 This is an overview of this post.
+The blog takes forever to load
 
 ## Summary
 

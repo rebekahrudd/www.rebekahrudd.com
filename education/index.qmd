@@ -1,0 +1,25 @@
+---
+title: "Education"
+toc: true
+page-layout: full
+listing:
+  page-size: 15
+  # contents:
+  #   - "../education/**/*.qmd"
+  #   - "!../education/index.qmd"
+  sort:
+    - "date desc"
+    - "title"
+  type: default
+  categories: true
+  date-format: long
+  sort-ui: true
+  filter-ui: true
+  fields: [author, date, title, reading-time, description, categories]
+  feed:
+    title: "Education"
+execute:
+  freeze: auto
+---
+
+To give other's common access to my life updates. todo: add a pdf download to each article like for my comp.
