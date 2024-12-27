@@ -1,0 +1,26 @@
+---
+title: "Shop"
+toc: true
+toc-depth: 5
+page-layout: full
+---
+
+## Title
+
+- how to set up a store, this makes things complicated and probably requires a  back end because to protect people's information and credit card information
+
+### Item 1
+
+### Item 2
+
+### Item 3
+
+::: {.callout-note appearance="minimal" title="Collapsible"}
+
+Text
+
+- **bold**: [Link](https://www.rebekahrudd.com)
+
+:::
+
+### Item 4
