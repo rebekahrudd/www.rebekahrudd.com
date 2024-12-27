@@ -1,0 +1,37 @@
+---
+title: Travels Overview
+layout: full
+toc: true
+---
+
+## Map
+
+
+### Location
+
+Two sentence overview.
+
+
+### Example of the Previous
+
+Here is the example of different qmd actions. **How to bold text** and normal text in a list example.
+
+
+The three colon makes this collapsable
+
+::: {.callout-note appearance="minimal" title="Collapasable Example" collapse="false"}
+
+- Link Example: [Link](https://www.rebekahrudd.com)
+
+:::
+
+## Weekly Cadence
+
+- {{< iconify fa6-solid people-line size=18px >}} **Monday**: Task
+  - *Italic text in a list.*:
+    - Item 1
+    - Item 2
+- {{< iconify fa-solid laptop-code size=18px >}} **Wednesday**: Task
+  - *Italic text in a list.*:
+    - Item 1
+    - Item 2
